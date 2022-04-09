@@ -13,7 +13,6 @@ orbs:
       - checkout
       - aws-cli/setup
       - eb/setup
-
       - run:
           name: "Frontend Install"
           command: |
