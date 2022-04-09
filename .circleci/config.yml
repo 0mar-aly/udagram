@@ -5,8 +5,8 @@ orbs:
   aws-cli: circleci/aws-cli@1.4.1
   eb: circleci/aws-elastic-beanstalk@2.0.1
   jobs:
-  build:
-    docker:
+    build:
+      docker:
       - image: "cimg/base:stable"
     steps:
       - node/install
@@ -15,7 +15,6 @@ orbs:
       - eb/setup
 
       - run:
-          - run:
           name: Frontend Install
           command: |
             npm run frontend:install
