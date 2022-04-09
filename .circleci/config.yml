@@ -15,34 +15,34 @@ orbs:
       - eb/setup
 
       - run:
-          name: Frontend Install
+          name: "Frontend Install"
           command: |
             npm run frontend:install
       - run:
-          name: Backend Install
+          name: "Backend Install"
           command: |
             npm run backend:install
       - run:
-          name: Frontend Build
+          name: "Frontend Build"
           command: |
             npm run frontend:build
       - run:
-          name: Backend Build
+          name: "Backend Build"
           command: |
             npm run backend:build
       - run:
-          name: Frontend Deploy
+          name: "Frontend Deploy"
           command: |
             npm run frontend:deploy
       - run:
-          name: Backend Deploy
+          name: "Backend Deploy"
           command: |
             npm run backend:deploy
       - run:
-          name: Frontend Test
+          name: "Frontend Test"
           command: |
             npm run frontend:test
       - run:
-          name: Backend Test
+          name: "Backend Test"
           command: |
             npm run backend:test
