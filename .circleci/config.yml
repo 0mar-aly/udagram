@@ -52,4 +52,4 @@ jobs:
 workflows:
   build-and-deploy-workflow:
     jobs:
-      - build-and-deploy
+      - build
