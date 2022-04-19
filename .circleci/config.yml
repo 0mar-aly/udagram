@@ -17,10 +17,7 @@ jobs:
         - aws-cli/setup
         - eb/setup
         - browser-tools/install-browser-tools
-
-        - run:
-            command: |
-              echo $DISPLAY
+        
         - run:
             name: "Frontend Install"
             command: |
