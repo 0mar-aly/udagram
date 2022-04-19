@@ -19,6 +19,9 @@ jobs:
         - browser-tools/install-browser-tools
 
         - run:
+            command: |
+              echo $DISPLAY
+        - run:
             name: "Frontend Install"
             command: |
               npm run frontend:install
